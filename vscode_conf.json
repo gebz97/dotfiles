@@ -82,5 +82,10 @@
     "chat.sendElementsToChat.enabled": false,
     "chat.tools.useTreePicker": false,
     "chat.undoRequests.restoreInput": false,
-    "chat.useFileStorage": false
+    "chat.useFileStorage": false,
+    "workbench.enableExperiments": false,
+    "mcp.experimental.enable": false,
+    "github.copilot.enable": {
+        "*": false
+    },
 }
