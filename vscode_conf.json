@@ -87,6 +87,49 @@
     "mcp.experimental.enable": false,
     "github.copilot.enable": {
         "*": false
-    },    
+    },
+    "java.import.gradle.java.home": "/home/gebz/.sdkman/candidates/java/current/",
+
+    "dataWrangler.experiments.copilot.enabled": false,
+    "chat.focusWindowOnConfirmation": false,
+    "chat.setupFromDialog": false,
+    "remote.SSH.experimental.chat": false,
+    "gitlab.duoChat.enabled": false,
     "workbench.editor.empty.hint": "hidden",
+        "accessibility.verbosity.inlineChat": false,
+    "accessibility.verbosity.panelChat": false,
+    "ansible.lightspeed.suggestions.waitWindow": 360000,
+    "chat.focusWindowOnConfirmation": false,
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": false
+    },
+    "chat.mcp.discovery.enabled": false,
+    "chat.modeFilesLocations": {
+        ".github/chatmodes": false
+    },
+    "chat.promptFilesLocations": {
+        ".github/prompts": false
+    },
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.editor.enableCodeActions": false,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.renameSuggestions.triggerAutomatically": false,
+    "githubPullRequests.codingAgent.enabled": false,
+    "githubPullRequests.experimental.chat": false,
+    "inlineChat.holdToSpeech": false,
+    "inlineChat.lineNaturalLanguageHint": false,
+    "mcp": {
+        "inputs": [],
+        "servers": {}
+    },
+    "notebook.experimental.generate": false,
+    "python.analysis.aiCodeActions": {
+        "convertFormatString": false,
+        "convertLambdaToNamedFunction": false,
+        "generateDocstring": false,
+        "generateSymbol": false,
+        "implementAbstractClasses": false
+    },
+    "python.experiments.enabled": false,
+    "terminal.integrated.initialHint": false,
 }
