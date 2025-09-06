@@ -58,5 +58,29 @@
 
     "workbench.settings.applyToAllProfiles": [
         
-    ]
+    ],
+    "telemetry.feedback.enabled": false,
+    "telemetry.editStats.enabled": false,
+    "chat.agent.enabled": false,
+    "chat.agent.maxRequests": 0,
+    "chat.checkpoints.enabled": false,
+    "chat.detectParticipant.enabled": false,
+    "chat.editing.confirmEditRequestRemoval": false,
+    "chat.editing.confirmEditRequestRetry": false,
+    "chat.edits2.enabled": false,
+    "chat.emptyChatState.enabled": false,
+    "chat.extensionTools.enabled": false,
+    "chat.implicitContext.enabled": {
+        "panel": "never"
+    },
+    "chat.implicitContext.suggestedContext": false,
+    "chat.mcp.enabled": false,
+    "chat.notifyWindowOnConfirmation": false,
+    "chat.promptFiles": false,
+    "chat.sendElementsToChat.attachCSS": false,
+    "chat.sendElementsToChat.attachImages": false,
+    "chat.sendElementsToChat.enabled": false,
+    "chat.tools.useTreePicker": false,
+    "chat.undoRequests.restoreInput": false,
+    "chat.useFileStorage": false
 }
