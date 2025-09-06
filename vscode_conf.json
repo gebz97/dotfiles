@@ -1,0 +1,62 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "editor.parameterHints.cycle": false,
+    "editor.inlayHints.enabled": "off",
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.mode": "manual",
+    "update.showReleaseNotes": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.parameterHints.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "metals.javaVersion": "21",
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "metals.fallbackScalaVersion": "3.3.3",
+    "metals.superMethodLensesEnabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark+",
+    "java.signatureHelp.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.maxLineCount": 1,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "notebook.output.scrolling": true,
+    "editor.rulers": [
+        120
+    ],
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "editor.formatOnSaveMode": "modifications",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "remote.SSH.remotePlatform": {
+        "192.168.100.25": "linux",
+        "192.168.100.100": "linux",
+        "ansible.gebz.local": "linux",
+        "ansible-10.gebz.local": "linux",
+        "tf.gebz.local": "linux",
+        "rusty.gebz.local": "linux",
+        "gopher.gebz.local": "linux"
+    },
+    "workbench.startupEditor": "none",
+    "chat.commandCenter.enabled": false,
+    "files.associations": {
+        "*.j2": "ini",
+        "*.mcl": "perl"
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+
+    "workbench.settings.applyToAllProfiles": [
+        
+    ]
+}
