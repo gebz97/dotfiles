@@ -87,5 +87,6 @@
     "mcp.experimental.enable": false,
     "github.copilot.enable": {
         "*": false
-    },
+    },    
+    "workbench.editor.empty.hint": "hidden",
 }
