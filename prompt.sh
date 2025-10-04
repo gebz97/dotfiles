@@ -54,7 +54,7 @@ set_prompt() {
     local arrow_part="${CYAN}→${RESET}"
 
     # Combine all parts
-    PS1="${time_part} ${user_part}@${host_part}:${dir_part}${git_part}${venv_part} ${arrow_part} "
+    PS1="${time_part}${venv_part}${git_part} ${user_part}@${host_part}:${dir_part} ${arrow_part} "
 }
 
 PROMPT_COMMAND=set_prompt
