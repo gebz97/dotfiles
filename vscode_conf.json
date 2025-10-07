@@ -18,7 +18,6 @@
     "dotnetAcquisitionExtension.enableTelemetry": false,
     "metals.fallbackScalaVersion": "3.3.3",
     "metals.superMethodLensesEnabled": false,
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Default Dark+",
     "java.signatureHelp.enabled": false,
     "explorer.confirmDelete": false,
@@ -30,7 +29,6 @@
     "editor.rulers": [
         120
     ],
-    "editor.formatOnSave": true,
     "notebook.formatOnSave.enabled": true,
     "editor.formatOnSaveMode": "modifications",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -74,7 +72,6 @@
         "panel": "never"
     },
     "chat.implicitContext.suggestedContext": false,
-    "chat.mcp.enabled": false,
     "chat.notifyWindowOnConfirmation": false,
     "chat.promptFiles": false,
     "chat.sendElementsToChat.attachCSS": false,
@@ -103,7 +100,12 @@
     "chat.instructionsFilesLocations": {
         ".github/instructions": false
     },
-    "chat.mcp.discovery.enabled": false,
+    "chat.mcp.discovery.enabled": {
+        "claude-desktop": false,
+        "windsurf": false,
+        "cursor-global": false,
+        "cursor-workspace": false
+    },
     "chat.modeFilesLocations": {
         ".github/chatmodes": false
     },
@@ -132,4 +134,21 @@
     },
     "python.experiments.enabled": false,
     "terminal.integrated.initialHint": false,
+    "chat.mcp.access": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "chat.math.enabled": false,
+    "chat.showAgentSessionsViewDescription": false,
+    "chat.tools.terminal.enableAutoApprove": false,
+    "chat.useAgentsMdFile": false,
+    "chat.disableAIFeatures": true,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
 }
