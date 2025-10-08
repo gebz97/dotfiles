@@ -1,0 +1,261 @@
+# admin panels
+#ajenti
+streamlit
+
+# async
+asyncio
+uvloop
+
+# auth
+django-allauth
+django-oauth-toolkit
+oauthlib
+pyjwt
+python-jose
+
+# build tools
+scons
+
+# cms
+wagtail
+
+# cache
+django-cache-machine
+django-cacheops
+#pylibmc
+
+# cloud/infra
+pyvmomi
+boto3
+#libvirt-python
+docker
+kubernetes
+proxmoxer
+prometheus-client
+influxdb-client
+grafanalib
+netapp-ontap
+pyzfs
+#ceph
+#nfs4
+pika
+python-keycloak
+etcd3
+etcd3gw
+zabbix-api
+
+# code analysis
+prospector
+vulture
+flake8
+pylint
+ruff
+black
+isort
+mypy
+pytype
+
+# cli
+cement
+cliff
+colorama
+bashplotlib
+rich
+
+# productivity
+copier
+cookiecutter
+
+# config
+configparser
+#hydra
+python-decouple
+
+# cryptography
+cryptography
+paramiko
+
+# data analysis
+pandas
+polars
+
+# data validation
+jsonschema
+pydantic
+
+# data viz
+altair
+#bokeh
+#diagrams
+matplotlib
+seaborn
+
+# db drivers
+pymysql
+psycopg
+pymssql
+kafka-python
+pymongo
+redis
+elasticsearch
+
+# date and time
+arrow
+pendulum
+
+# debugging
+ipdb
+django-debug-toolbar
+icecream
+py-spy
+vprof
+
+# devops
+ansible
+#pyinfra
+fabric
+supervisor
+psutil
+borg
+
+# distributed computing
+dask
+luigi
+pyspark
+#ray
+#faust
+#streamparse
+
+# distribution
+pyinstaller
+
+# documentation
+sphinx
+pdoc
+
+# email
+imbox
+yagmail
+
+# file manipulation
+pathlib
+
+# graphQL
+graphene
+
+# html manipulation
+beautifulsoup4
+xmltodict
+
+# http
+requests
+urllib3
+
+# packets
+scapy
+
+# intlzn
+babel
+
+# job sched
+apache-airflow
+#beat
+doit
+joblib
+schedule
+
+# logging
+logbook
+logging
+#sentry-python
+
+# orm
+sqlalchemy
+django-models
+
+# permissions
+django-guardian
+rules
+#django-rules
+
+# process
+sarge
+sh
+
+# rest api
+django-rest-framework
+eve
+flask-restful
+fastapi
+
+# rpc
+rpyc
+
+# search
+elasticsearch
+pysolr
+
+# secret management
+hvac
+
+# serialization
+marshmallow
+pysimdjson
+python-rapidjson
+ultrajson
+
+# data formats
+tablib
+openpyxl
+python-pptx
+pypdf2
+python-markdown
+pyyaml
+csvkit
+
+# Static Site generator
+mkdocs
+mkdocs-material
+#makesite
+nikola
+pelican
+
+# tagging
+django-taggit
+
+# task queuing
+celery
+huey
+dramatiq
+
+# templates
+jinja2
+
+# testing
+
+selenium
+mock
+httpretty
+coverage
+fake2db
+faker
+
+# text processing
+rapidfuzz
+python-slugify
+lark
+pyparsing
+
+# web asset management
+django-compressor
+django-storages
+
+# scraping
+scrapy
+
+# web
+django
+flask
+websockets
+gunicorn
+uvicorn
