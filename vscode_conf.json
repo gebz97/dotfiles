@@ -151,4 +151,16 @@
     "[github-actions-workflow]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
+    "java.home":"/home/dev/.sdkman/candidates/java/current",
+    "java.configuration.runtimes": [
+        {
+            "name":"JavaSE-25",
+            "path":"/home/dev/.sdkman/candidates/java/current",
+            "default": true
+        }
+    ],
+    "gradle.autoDetect": "off",
+    "gradle.gradlePath": "/home/dev/.sdkman/candidates/gradle/current/bin/gradle",
+    "java.server.launchMode": "LightWeight",
+    "java.import.gradle.java.home": "/home/dev/.sdkman/candidates/java/current/",
 }
