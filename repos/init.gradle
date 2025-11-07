@@ -1,0 +1,9 @@
+allprojects {
+  repositories {
+    maven {
+      url "http://nexus.gebz.local:8080/repository/maven-central/"
+      allowInsecureProtocol = true
+    }
+    mavenCentral()
+  }
+}
