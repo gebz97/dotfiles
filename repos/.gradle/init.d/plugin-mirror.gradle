@@ -1,0 +1,12 @@
+gradle.beforeSettings { settings ->
+
+    settings.pluginManagement {
+        repositories {
+            maven {
+                url = settings.uri("http://nexus.gebz.local:8080/repository/gradle-plugins/")
+                allowInsecureProtocol = true
+            }
+            // gradlePluginPortal()
+        }
+    }
+}
