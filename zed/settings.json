@@ -7,6 +7,22 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cursor_shape": "bar",
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    },
+    "disable_git": false,
+    "git_gutter": "hide",
+    "enable_diff": false,
+    "enable_status": false
+  },
+  "scrollbar": {
+    "git_diff": false
+  },
+  "terminal": {
+    "shell": "system"
+  },
   "gutter": {
     "line_numbers": true,
   },
@@ -48,7 +64,7 @@
   "theme": {
     "mode": "dark",
     "light": "Ayu Light",
-    "dark": "Catppuccin Mocha (Blur) [Light]",
+    "dark": "VSCode Dark Polished",
   },
   "experimental.theme_overrides": {
     "background.appearance": "blurred",
