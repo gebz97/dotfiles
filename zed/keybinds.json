@@ -52,4 +52,16 @@
       "ctrl-alt-up": "editor::DuplicateLineUp",
     },
   },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-i": "editor::Format"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-shift-f": null
+    }
+  }
 ]
