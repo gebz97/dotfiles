@@ -55,13 +55,38 @@
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-shift-i": "editor::Format"
-    }
+      "ctrl-shift-i": "editor::Format",
+    },
   },
   {
     "context": "Editor",
     "bindings": {
-      "alt-shift-f": null
-    }
-  }
+      "alt-shift-f": null,
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl+d": "editor::DeleteLine",
+    },
+  },
+  {
+    "context": "Editor && showing_completions",
+    "bindings": {
+      "enter": "editor::Newline",
+      "tab": "editor::ConfirmCompletion",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-k": null,
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-d": "editor::DeleteLine",
+    },
+  },
 ]
