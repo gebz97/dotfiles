@@ -163,4 +163,6 @@
     "gradle.gradlePath": "/home/dev/.sdkman/candidates/gradle/current/bin/gradle",
     "java.server.launchMode": "LightWeight",
     "java.import.gradle.java.home": "/home/dev/.sdkman/candidates/java/current/",
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.initialHint": false,
 }
