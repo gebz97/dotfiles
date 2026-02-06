@@ -165,4 +165,5 @@
     "java.import.gradle.java.home": "/home/dev/.sdkman/candidates/java/current/",
     "terminal.integrated.stickyScroll.enabled": false,
     "terminal.integrated.initialHint": false,
+    "editor.wordWrap": "on",
 }
